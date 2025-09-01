@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-01T13:01:02 IST" name="AutomationExercise Suite" finished-at="2025-09-01T13:01:32 IST" duration-ms="30294">
+    <groups>
+    </groups>
+    <test started-at="2025-09-01T13:01:02 IST" name="ChromeTest" finished-at="2025-09-01T13:01:32 IST" duration-ms="30294">
+      <class name="Tests.Login_6">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:02 IST" name="setUp" finished-at="2025-09-01T13:01:06 IST" duration-ms="3769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void Tests.Login_6.testScrollDownUsingKeyboardOnLoginPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScrollDownUsingKeyboardOnLoginPage()[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:06 IST" name="testScrollDownUsingKeyboardOnLoginPage" finished-at="2025-09-01T13:01:09 IST" duration-ms="2825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScrollDownUsingKeyboardOnLoginPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:09 IST" name="tearDown" finished-at="2025-09-01T13:01:10 IST" duration-ms="1029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testScrollDownUsingKeyboardOnLoginPage status=SUCCESS method=Login_6.testScrollDownUsingKeyboardOnLoginPage()[pri:0, instance:Tests.Login_6@7c3fdb62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:10 IST" name="setUp" finished-at="2025-09-01T13:01:11 IST" duration-ms="1773" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void Tests.Login_6.testScrollDownUsingMouseClickOnLoginPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScrollDownUsingMouseClickOnLoginPage()[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:11 IST" name="testScrollDownUsingMouseClickOnLoginPage" finished-at="2025-09-01T13:01:13 IST" duration-ms="1934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScrollDownUsingMouseClickOnLoginPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:13 IST" name="tearDown" finished-at="2025-09-01T13:01:14 IST" duration-ms="471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testScrollDownUsingMouseClickOnLoginPage status=SUCCESS method=Login_6.testScrollDownUsingMouseClickOnLoginPage()[pri:0, instance:Tests.Login_6@7c3fdb62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:14 IST" name="setUp" finished-at="2025-09-01T13:01:16 IST" duration-ms="1866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void Tests.Login_6.testScrollDownUsingMouseScrollOnLoginPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScrollDownUsingMouseScrollOnLoginPage()[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:16 IST" name="testScrollDownUsingMouseScrollOnLoginPage" finished-at="2025-09-01T13:01:18 IST" duration-ms="2328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScrollDownUsingMouseScrollOnLoginPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:18 IST" name="tearDown" finished-at="2025-09-01T13:01:18 IST" duration-ms="460" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testScrollDownUsingMouseScrollOnLoginPage status=SUCCESS method=Login_6.testScrollDownUsingMouseScrollOnLoginPage()[pri:0, instance:Tests.Login_6@7c3fdb62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:18 IST" name="setUp" finished-at="2025-09-01T13:01:20 IST" duration-ms="1879" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void Tests.Login_6.testScrollUpUsingKeyboardOnLoginPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScrollUpUsingKeyboardOnLoginPage()[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:20 IST" name="testScrollUpUsingKeyboardOnLoginPage" finished-at="2025-09-01T13:01:22 IST" duration-ms="1913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScrollUpUsingKeyboardOnLoginPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:22 IST" name="tearDown" finished-at="2025-09-01T13:01:23 IST" duration-ms="471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testScrollUpUsingKeyboardOnLoginPage status=SUCCESS method=Login_6.testScrollUpUsingKeyboardOnLoginPage()[pri:0, instance:Tests.Login_6@7c3fdb62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:23 IST" name="setUp" finished-at="2025-09-01T13:01:25 IST" duration-ms="1930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void Tests.Login_6.testScrollUpUsingMouseClickOnLoginPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScrollUpUsingMouseClickOnLoginPage()[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:25 IST" name="testScrollUpUsingMouseClickOnLoginPage" finished-at="2025-09-01T13:01:27 IST" duration-ms="1984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScrollUpUsingMouseClickOnLoginPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:27 IST" name="tearDown" finished-at="2025-09-01T13:01:27 IST" duration-ms="481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testScrollUpUsingMouseClickOnLoginPage status=SUCCESS method=Login_6.testScrollUpUsingMouseClickOnLoginPage()[pri:0, instance:Tests.Login_6@7c3fdb62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:27 IST" name="setUp" finished-at="2025-09-01T13:01:29 IST" duration-ms="1874" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void Tests.Login_6.testScrollUpUsingMouseScrollOnLoginPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScrollUpUsingMouseScrollOnLoginPage()[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:29 IST" name="testScrollUpUsingMouseScrollOnLoginPage" finished-at="2025-09-01T13:01:31 IST" duration-ms="2381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScrollUpUsingMouseScrollOnLoginPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:31 IST" name="tearDown" finished-at="2025-09-01T13:01:32 IST" duration-ms="874" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testScrollUpUsingMouseScrollOnLoginPage status=SUCCESS method=Login_6.testScrollUpUsingMouseScrollOnLoginPage()[pri:0, instance:Tests.Login_6@7c3fdb62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.Login_6 -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- AutomationExercise Suite -->
+</testng-results>

@@ -20,6 +20,11 @@
     </properties>
 
     <dependencies>
+    <dependency>
+    <groupId>com.applitools</groupId>
+    <artifactId>eyes-selenium-java5</artifactId>
+    <version>5.81.0</version>
+</dependency>
         <!-- Selenium -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>

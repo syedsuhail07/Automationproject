@@ -3,20 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.UI_Home_1">
+      <class name="Tests.TestAutomation">
         <methods>
-          <include name="verifyCursorChangesOnHover"/>
-          <include name="verifyAddToCartFromHomePage"/>
-          <include name="verifyCarouselArrows"/>
-          <include name="verifyApiTestingPage"/>
-          <include name="verifyHomepageBannersLoad"/>
-          <include name="verifyBrandColumnFunctionality"/>
-          <include name="verifySlideshowIsWorking"/>
-          <include name="verifyCategoryColumnFunctionality"/>
+          <include name="verifyHomeButton"/>
+          <include name="verifyUrlLoads"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- Tests.UI_Home_1 -->
+      </class> <!-- Tests.TestAutomation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

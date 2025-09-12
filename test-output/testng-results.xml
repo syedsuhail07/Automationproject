@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="7" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-01T13:01:02 IST" name="AutomationExercise Suite" finished-at="2025-09-01T13:01:32 IST" duration-ms="30294">
+  <suite started-at="2025-09-12T11:24:28 IST" name="AutomationExercise Suite" finished-at="2025-09-12T11:25:39 IST" duration-ms="70987">
     <groups>
     </groups>
-    <test started-at="2025-09-01T13:01:02 IST" name="ChromeTest" finished-at="2025-09-01T13:01:32 IST" duration-ms="30294">
-      <class name="Tests.Login_6">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:02 IST" name="setUp" finished-at="2025-09-01T13:01:06 IST" duration-ms="3769" status="PASS">
+    <test started-at="2025-09-12T11:24:28 IST" name="ChromeTest" finished-at="2025-09-12T11:25:39 IST" duration-ms="70987">
+      <class name="Tests.UI_Home_2">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Tests.UI_Home_2@31f9b85e]" started-at="2025-09-12T11:24:28 IST" name="setUp" finished-at="2025-09-12T11:24:31 IST" duration-ms="2625" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -16,29 +16,29 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void Tests.Login_6.testScrollDownUsingKeyboardOnLoginPage()]]>
+                <![CDATA[public void Tests.UI_Home_2.verifyApisListButtonInCarousel()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testScrollDownUsingKeyboardOnLoginPage()[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:06 IST" name="testScrollDownUsingKeyboardOnLoginPage" finished-at="2025-09-01T13:01:09 IST" duration-ms="2825" status="PASS">
+        <test-method signature="verifyApisListButtonInCarousel()[pri:0, instance:Tests.UI_Home_2@31f9b85e]" started-at="2025-09-12T11:24:31 IST" name="verifyApisListButtonInCarousel" finished-at="2025-09-12T11:24:36 IST" duration-ms="5184" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testScrollDownUsingKeyboardOnLoginPage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:09 IST" name="tearDown" finished-at="2025-09-01T13:01:10 IST" duration-ms="1029" status="PASS">
+        </test-method> <!-- verifyApisListButtonInCarousel -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.UI_Home_2@31f9b85e]" started-at="2025-09-12T11:24:36 IST" name="tearDown" finished-at="2025-09-12T11:24:37 IST" duration-ms="985" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testScrollDownUsingKeyboardOnLoginPage status=SUCCESS method=Login_6.testScrollDownUsingKeyboardOnLoginPage()[pri:0, instance:Tests.Login_6@7c3fdb62] output={null}]]]>
+                <![CDATA[[TestResult name=verifyApisListButtonInCarousel status=SUCCESS method=UI_Home_2.verifyApisListButtonInCarousel()[pri:0, instance:Tests.UI_Home_2@31f9b85e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:10 IST" name="setUp" finished-at="2025-09-01T13:01:11 IST" duration-ms="1773" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Tests.UI_Home_2@31f9b85e]" started-at="2025-09-12T11:24:37 IST" name="setUp" finished-at="2025-09-12T11:24:39 IST" duration-ms="1740" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,29 +47,95 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void Tests.Login_6.testScrollDownUsingMouseClickOnLoginPage()]]>
+                <![CDATA[public void Tests.UI_Home_2.verifyChatSupportArrowButton()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testScrollDownUsingMouseClickOnLoginPage()[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:11 IST" name="testScrollDownUsingMouseClickOnLoginPage" finished-at="2025-09-01T13:01:13 IST" duration-ms="1934" status="PASS">
+        <test-method signature="verifyChatSupportArrowButton()[pri:0, instance:Tests.UI_Home_2@31f9b85e]" started-at="2025-09-12T11:24:39 IST" name="verifyChatSupportArrowButton" finished-at="2025-09-12T11:24:42 IST" duration-ms="2689" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".chat-support .arrow-button"}
+  (Session info: chrome=140.0.7339.133)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '2a4c61c498'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.6.1', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [411c132d7b82f40cb68ee2cd119a0593, findElement {using=css selector, value=.chat-support .arrow-button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.133, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: /var/folders/3z/q9ynh7zx03v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57769}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57769/devtoo..., se:cdpVersion: 140.0.7339.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 411c132d7b82f40cb68ee2cd119a0593]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".chat-support .arrow-button"}
+  (Session info: chrome=140.0.7339.133)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '2a4c61c498'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.6.1', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [411c132d7b82f40cb68ee2cd119a0593, findElement {using=css selector, value=.chat-support .arrow-button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.133, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: /var/folders/3z/q9ynh7zx03v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57769}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57769/devtoo..., se:cdpVersion: 140.0.7339.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 411c132d7b82f40cb68ee2cd119a0593
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at Tests.UI_Home_2.verifyChatSupportArrowButton(UI_Home_2.java:71)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testScrollDownUsingMouseClickOnLoginPage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:13 IST" name="tearDown" finished-at="2025-09-01T13:01:14 IST" duration-ms="471" status="PASS">
+        </test-method> <!-- verifyChatSupportArrowButton -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.UI_Home_2@31f9b85e]" started-at="2025-09-12T11:24:42 IST" name="tearDown" finished-at="2025-09-12T11:24:42 IST" duration-ms="705" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testScrollDownUsingMouseClickOnLoginPage status=SUCCESS method=Login_6.testScrollDownUsingMouseClickOnLoginPage()[pri:0, instance:Tests.Login_6@7c3fdb62] output={null}]]]>
+                <![CDATA[[TestResult name=verifyChatSupportArrowButton status=FAILURE method=UI_Home_2.verifyChatSupportArrowButton()[pri:0, instance:Tests.UI_Home_2@31f9b85e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:14 IST" name="setUp" finished-at="2025-09-01T13:01:16 IST" duration-ms="1866" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Tests.UI_Home_2@31f9b85e]" started-at="2025-09-12T11:24:42 IST" name="setUp" finished-at="2025-09-12T11:24:44 IST" duration-ms="1843" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -78,29 +144,29 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void Tests.Login_6.testScrollDownUsingMouseScrollOnLoginPage()]]>
+                <![CDATA[public void Tests.UI_Home_2.verifyFunctionalityOfVideoTutorialsIconOnTestCasesPage()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testScrollDownUsingMouseScrollOnLoginPage()[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:16 IST" name="testScrollDownUsingMouseScrollOnLoginPage" finished-at="2025-09-01T13:01:18 IST" duration-ms="2328" status="PASS">
+        <test-method signature="verifyFunctionalityOfVideoTutorialsIconOnTestCasesPage()[pri:0, instance:Tests.UI_Home_2@31f9b85e]" started-at="2025-09-12T11:24:44 IST" name="verifyFunctionalityOfVideoTutorialsIconOnTestCasesPage" finished-at="2025-09-12T11:24:50 IST" duration-ms="5795" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testScrollDownUsingMouseScrollOnLoginPage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:18 IST" name="tearDown" finished-at="2025-09-01T13:01:18 IST" duration-ms="460" status="PASS">
+        </test-method> <!-- verifyFunctionalityOfVideoTutorialsIconOnTestCasesPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.UI_Home_2@31f9b85e]" started-at="2025-09-12T11:24:50 IST" name="tearDown" finished-at="2025-09-12T11:24:51 IST" duration-ms="659" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testScrollDownUsingMouseScrollOnLoginPage status=SUCCESS method=Login_6.testScrollDownUsingMouseScrollOnLoginPage()[pri:0, instance:Tests.Login_6@7c3fdb62] output={null}]]]>
+                <![CDATA[[TestResult name=verifyFunctionalityOfVideoTutorialsIconOnTestCasesPage status=SUCCESS method=UI_Home_2.verifyFunctionalityOfVideoTutorialsIconOnTestCasesPage()[pri:0, instance:Tests.UI_Home_2@31f9b85e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:18 IST" name="setUp" finished-at="2025-09-01T13:01:20 IST" duration-ms="1879" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Tests.UI_Home_2@31f9b85e]" started-at="2025-09-12T11:24:51 IST" name="setUp" finished-at="2025-09-12T11:24:53 IST" duration-ms="2000" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -109,29 +175,29 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void Tests.Login_6.testScrollUpUsingKeyboardOnLoginPage()]]>
+                <![CDATA[public void Tests.UI_Home_2.verifyHomepageFontStyleAndSize()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testScrollUpUsingKeyboardOnLoginPage()[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:20 IST" name="testScrollUpUsingKeyboardOnLoginPage" finished-at="2025-09-01T13:01:22 IST" duration-ms="1913" status="PASS">
+        <test-method signature="verifyHomepageFontStyleAndSize()[pri:0, instance:Tests.UI_Home_2@31f9b85e]" started-at="2025-09-12T11:24:53 IST" name="verifyHomepageFontStyleAndSize" finished-at="2025-09-12T11:24:55 IST" duration-ms="2647" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testScrollUpUsingKeyboardOnLoginPage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:22 IST" name="tearDown" finished-at="2025-09-01T13:01:23 IST" duration-ms="471" status="PASS">
+        </test-method> <!-- verifyHomepageFontStyleAndSize -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.UI_Home_2@31f9b85e]" started-at="2025-09-12T11:24:55 IST" name="tearDown" finished-at="2025-09-12T11:24:56 IST" duration-ms="655" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testScrollUpUsingKeyboardOnLoginPage status=SUCCESS method=Login_6.testScrollUpUsingKeyboardOnLoginPage()[pri:0, instance:Tests.Login_6@7c3fdb62] output={null}]]]>
+                <![CDATA[[TestResult name=verifyHomepageFontStyleAndSize status=SUCCESS method=UI_Home_2.verifyHomepageFontStyleAndSize()[pri:0, instance:Tests.UI_Home_2@31f9b85e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:23 IST" name="setUp" finished-at="2025-09-01T13:01:25 IST" duration-ms="1930" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Tests.UI_Home_2@31f9b85e]" started-at="2025-09-12T11:24:56 IST" name="setUp" finished-at="2025-09-12T11:24:58 IST" duration-ms="1854" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -140,29 +206,69 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void Tests.Login_6.testScrollUpUsingMouseClickOnLoginPage()]]>
+                <![CDATA[public void Tests.UI_Home_2.verifyRecommendationsNextButton() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testScrollUpUsingMouseClickOnLoginPage()[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:25 IST" name="testScrollUpUsingMouseClickOnLoginPage" finished-at="2025-09-01T13:01:27 IST" duration-ms="1984" status="PASS">
+        <test-method signature="verifyRecommendationsNextButton()[pri:0, instance:Tests.UI_Home_2@31f9b85e]" started-at="2025-09-12T11:24:58 IST" name="verifyRecommendationsNextButton" finished-at="2025-09-12T11:25:04 IST" duration-ms="5898" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Next button did not scroll recommendations! did not expect [item active] but found [item active]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Next button did not scroll recommendations! did not expect [item active] but found [item active]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failEquals(Assert.java:1594)
+at org.testng.Assert.assertNotEqualsImpl(Assert.java:157)
+at org.testng.Assert.assertNotEquals(Assert.java:2217)
+at Tests.UI_Home_2.verifyRecommendationsNextButton(UI_Home_2.java:125)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testScrollUpUsingMouseClickOnLoginPage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:27 IST" name="tearDown" finished-at="2025-09-01T13:01:27 IST" duration-ms="481" status="PASS">
+        </test-method> <!-- verifyRecommendationsNextButton -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.UI_Home_2@31f9b85e]" started-at="2025-09-12T11:25:04 IST" name="tearDown" finished-at="2025-09-12T11:25:04 IST" duration-ms="580" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testScrollUpUsingMouseClickOnLoginPage status=SUCCESS method=Login_6.testScrollUpUsingMouseClickOnLoginPage()[pri:0, instance:Tests.Login_6@7c3fdb62] output={null}]]]>
+                <![CDATA[[TestResult name=verifyRecommendationsNextButton status=FAILURE method=UI_Home_2.verifyRecommendationsNextButton()[pri:0, instance:Tests.UI_Home_2@31f9b85e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:27 IST" name="setUp" finished-at="2025-09-01T13:01:29 IST" duration-ms="1874" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Tests.UI_Home_2@31f9b85e]" started-at="2025-09-12T11:25:04 IST" name="setUp" finished-at="2025-09-12T11:25:06 IST" duration-ms="1874" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -171,29 +277,217 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void Tests.Login_6.testScrollUpUsingMouseScrollOnLoginPage()]]>
+                <![CDATA[public void Tests.UI_Home_2.verifySignupLoginButton()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testScrollUpUsingMouseScrollOnLoginPage()[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:29 IST" name="testScrollUpUsingMouseScrollOnLoginPage" finished-at="2025-09-01T13:01:31 IST" duration-ms="2381" status="PASS">
+        <test-method signature="verifySignupLoginButton()[pri:0, instance:Tests.UI_Home_2@31f9b85e]" started-at="2025-09-12T11:25:06 IST" name="verifySignupLoginButton" finished-at="2025-09-12T11:25:10 IST" duration-ms="4212" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testScrollUpUsingMouseScrollOnLoginPage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.Login_6@7c3fdb62]" started-at="2025-09-01T13:01:31 IST" name="tearDown" finished-at="2025-09-01T13:01:32 IST" duration-ms="874" status="PASS">
+        </test-method> <!-- verifySignupLoginButton -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.UI_Home_2@31f9b85e]" started-at="2025-09-12T11:25:10 IST" name="tearDown" finished-at="2025-09-12T11:25:11 IST" duration-ms="847" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testScrollUpUsingMouseScrollOnLoginPage status=SUCCESS method=Login_6.testScrollUpUsingMouseScrollOnLoginPage()[pri:0, instance:Tests.Login_6@7c3fdb62] output={null}]]]>
+                <![CDATA[[TestResult name=verifySignupLoginButton status=SUCCESS method=UI_Home_2.verifySignupLoginButton()[pri:0, instance:Tests.UI_Home_2@31f9b85e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Tests.Login_6 -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Tests.UI_Home_2@31f9b85e]" started-at="2025-09-12T11:25:11 IST" name="setUp" finished-at="2025-09-12T11:25:13 IST" duration-ms="1831" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void Tests.UI_Home_2.verifySlideShowDotButtons() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySlideShowDotButtons()[pri:0, instance:Tests.UI_Home_2@31f9b85e]" started-at="2025-09-12T11:25:13 IST" name="verifySlideShowDotButtons" finished-at="2025-09-12T11:25:18 IST" duration-ms="4774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySlideShowDotButtons -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.UI_Home_2@31f9b85e]" started-at="2025-09-12T11:25:18 IST" name="tearDown" finished-at="2025-09-12T11:25:18 IST" duration-ms="606" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySlideShowDotButtons status=SUCCESS method=UI_Home_2.verifySlideShowDotButtons()[pri:0, instance:Tests.UI_Home_2@31f9b85e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Tests.UI_Home_2@31f9b85e]" started-at="2025-09-12T11:25:18 IST" name="setUp" finished-at="2025-09-12T11:25:20 IST" duration-ms="1899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void Tests.UI_Home_2.verifySubscriptionWithValidEmail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySubscriptionWithValidEmail()[pri:0, instance:Tests.UI_Home_2@31f9b85e]" started-at="2025-09-12T11:25:20 IST" name="verifySubscriptionWithValidEmail" finished-at="2025-09-12T11:25:23 IST" duration-ms="2267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubscriptionWithValidEmail -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.UI_Home_2@31f9b85e]" started-at="2025-09-12T11:25:23 IST" name="tearDown" finished-at="2025-09-12T11:25:23 IST" duration-ms="791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySubscriptionWithValidEmail status=SUCCESS method=UI_Home_2.verifySubscriptionWithValidEmail()[pri:0, instance:Tests.UI_Home_2@31f9b85e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Tests.UI_Home_2@31f9b85e]" started-at="2025-09-12T11:25:23 IST" name="setUp" finished-at="2025-09-12T11:25:25 IST" duration-ms="1810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void Tests.UI_Home_2.verifyTestCaseButtonInCarousel()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTestCaseButtonInCarousel()[pri:0, instance:Tests.UI_Home_2@31f9b85e]" started-at="2025-09-12T11:25:25 IST" name="verifyTestCaseButtonInCarousel" finished-at="2025-09-12T11:25:31 IST" duration-ms="5569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTestCaseButtonInCarousel -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.UI_Home_2@31f9b85e]" started-at="2025-09-12T11:25:31 IST" name="tearDown" finished-at="2025-09-12T11:25:31 IST" duration-ms="635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTestCaseButtonInCarousel status=SUCCESS method=UI_Home_2.verifyTestCaseButtonInCarousel()[pri:0, instance:Tests.UI_Home_2@31f9b85e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:Tests.UI_Home_2@31f9b85e]" started-at="2025-09-12T11:25:31 IST" name="setUp" finished-at="2025-09-12T11:25:33 IST" duration-ms="1841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void Tests.UI_Home_2.verifyViewProductRedirectsToDetailPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyViewProductRedirectsToDetailPage()[pri:0, instance:Tests.UI_Home_2@31f9b85e]" started-at="2025-09-12T11:25:33 IST" name="verifyViewProductRedirectsToDetailPage" finished-at="2025-09-12T11:25:39 IST" duration-ms="5360" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="/product_details/1" style="color: brown;">...</a> is not clickable at point (706, 867). Other element would receive the click: <iframe id="aswift_2" name="aswift_2" browsingtopics="true" style="min-height: auto; max-height: none; min-width: auto; max-width: none; width: 1005px !important; height: 124px !important; display: block; margin: 0px auto;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1005" height="124" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/html/r20250909/r20190131/zrt_lookup_fy2021.html#RS-0-&amp;adk=1812271801&amp;client=ca-pub-1677597403311019&amp;fa=1&amp;ifi=3&amp;uci=a!3&amp;btvi=1" data-google-container-id="a!3" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CJrGsuvE0o8DFfHHGwAd4Bozpg" data-load-complete="true"></iframe>
+  (Session info: chrome=140.0.7339.133)
+Build info: version: '4.34.0', revision: '2a4c61c498'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.6.1', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [43fccca7b9fa8f4022f03464d437949c, clickElement {id=f.E36430FAB5233A47BA19B82A260E1CEC.d.A6CD0C2BA3B9E576514B78247431030F.e.30}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.133, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: /var/folders/3z/q9ynh7zx03v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58022}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58022/devtoo..., se:cdpVersion: 140.0.7339.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (43fccca7b9fa8f4022f03464d437949c)] -> xpath: (//a[contains(text(),'View Product')])[1]]
+Session ID: 43fccca7b9fa8f4022f03464d437949c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/product_details/1" style="color: brown;">...</a> is not clickable at point (706, 867). Other element would receive the click: <iframe id="aswift_2" name="aswift_2" browsingtopics="true" style="min-height: auto; max-height: none; min-width: auto; max-width: none; width: 1005px !important; height: 124px !important; display: block; margin: 0px auto;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1005" height="124" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/html/r20250909/r20190131/zrt_lookup_fy2021.html#RS-0-&amp;adk=1812271801&amp;client=ca-pub-1677597403311019&amp;fa=1&amp;ifi=3&amp;uci=a!3&amp;btvi=1" data-google-container-id="a!3" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CJrGsuvE0o8DFfHHGwAd4Bozpg" data-load-complete="true"></iframe>
+  (Session info: chrome=140.0.7339.133)
+Build info: version: '4.34.0', revision: '2a4c61c498'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.6.1', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [43fccca7b9fa8f4022f03464d437949c, clickElement {id=f.E36430FAB5233A47BA19B82A260E1CEC.d.A6CD0C2BA3B9E576514B78247431030F.e.30}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.133, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: /var/folders/3z/q9ynh7zx03v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58022}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58022/devtoo..., se:cdpVersion: 140.0.7339.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (43fccca7b9fa8f4022f03464d437949c)] -> xpath: (//a[contains(text(),'View Product')])[1]]
+Session ID: 43fccca7b9fa8f4022f03464d437949c
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at Tests.UI_Home_2.verifyViewProductRedirectsToDetailPage(UI_Home_2.java:217)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyViewProductRedirectsToDetailPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.UI_Home_2@31f9b85e]" started-at="2025-09-12T11:25:39 IST" name="tearDown" finished-at="2025-09-12T11:25:39 IST" duration-ms="745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyViewProductRedirectsToDetailPage status=FAILURE method=UI_Home_2.verifyViewProductRedirectsToDetailPage()[pri:0, instance:Tests.UI_Home_2@31f9b85e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.UI_Home_2 -->
     </test> <!-- ChromeTest -->
   </suite> <!-- AutomationExercise Suite -->
 </testng-results>

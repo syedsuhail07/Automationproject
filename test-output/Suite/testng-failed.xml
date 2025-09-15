@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Tests.ALLCART_UI">
+        <methods>
+          <include name="verifyFunctionalityOfContactUsIconOnCartPage"/>
+          <include name="verifyFunctionalityOfAutomationExerciseLogoOnCartPage"/>
+          <include name="verifySubscriptionInputFieldAndButtonVisibility"/>
+          <include name="verifyBreadcrumbNavigationOnCartPage"/>
+          <include name="verifyFunctionalityOfCartIconOnCartPage"/>
+          <include name="setUp"/>
+          <include name="verifyFunctionalityOfLoginIconOnCartPage"/>
+          <include name="verifyFunctionalityOfHomeIconOnCartPage"/>
+          <include name="verifyCartEmptyMessageAndRedirectLink"/>
+          <include name="verifyFunctionalityOfTestCasesIconOnCartPage"/>
+          <include name="verifySubscriptionNoteText"/>
+          <include name="verifyFooterCopyrightText"/>
+          <include name="verifyFunctionalityOfAPITestingIconOnCartPage"/>
+          <include name="verifySubscriptionPlaceholderText"/>
+          <include name="verifyFunctionalityOfProductsIconOnCartPage"/>
+          <include name="verifyFunctionalityOfVideoTutorialsIconOnCartPage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Tests.ALLCART_UI -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

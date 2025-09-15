@@ -14,17 +14,19 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <selenium.version>4.23.0</selenium.version>
+        <selenium.version>4.25.0</selenium.version>
         <testng.version>7.10.2</testng.version>
         <webdrivermanager.version>5.9.2</webdrivermanager.version>
     </properties>
 
     <dependencies>
-    <dependency>
-    <groupId>com.applitools</groupId>
-    <artifactId>eyes-selenium-java5</artifactId>
-    <version>5.81.0</version>
-</dependency>
+        <!-- Applitools -->
+        <dependency>
+            <groupId>com.applitools</groupId>
+            <artifactId>eyes-selenium-java5</artifactId>
+            <version>5.81.0</version>
+        </dependency>
+
         <!-- Selenium -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -37,7 +39,7 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>${testng.version}</version>
-            <scope>test</scope>
+            
         </dependency>
 
         <!-- WebDriverManager -->
@@ -47,22 +49,31 @@
             <version>${webdrivermanager.version}</version>
         </dependency>
 
-        <!-- Logging (optional, helps debug) -->
+        <!-- Logging -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
             <version>2.0.13</version>
         </dependency>
+
+        <!-- Extent Reports -->
         <dependency>
-        	<groupId>CGIauto</groupId>
-        	<artifactId>CGIauto</artifactId>
-        	<version>0.0.1-SNAPSHOT</version>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>5.0.9</version>
+        </dependency>
+
+        <!-- Apache POI -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>5.2.5</version>
         </dependency>
     </dependencies>
 
     <build>
         <plugins>
-            <!-- Compiler Plugin -->
+            <!-- Compiler -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -73,7 +84,7 @@
                 </configuration>
             </plugin>
 
-            <!-- Surefire Plugin (runs TestNG tests) -->
+            <!-- Surefire -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>

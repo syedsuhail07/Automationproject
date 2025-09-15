@@ -12,7 +12,7 @@ public class ExtentReportManager {
         if (extent == null) {
             String timestamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());
             String reportName = className + "_" + timestamp + ".html";
-            String reportPath = System.getProperty("user.dir") + "/src/test/resources/Reports_Venkat/" + reportName;
+            String reportPath = System.getProperty("user.dir") + "/src/test/resources/Trial_Report/" + reportName;
 
             ExtentSparkReporter reporter = new ExtentSparkReporter(reportPath);
             reporter.config().setReportName(className + " Automation Test Report");
@@ -20,7 +20,7 @@ public class ExtentReportManager {
 
             extent = new ExtentReports();
             extent.attachReporter(reporter);
-            extent.setSystemInfo("Tester", "Venkata Kalyan");
+            extent.setSystemInfo("Tester", "Trial");
             extent.setSystemInfo("Environment", "QA");
         }
         return extent;

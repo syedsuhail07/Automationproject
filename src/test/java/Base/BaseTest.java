@@ -74,6 +74,7 @@ import org.openqa.selenium.safari.SafariDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import com.automationproj.utilities.ScreenshotUtils;
@@ -90,7 +91,7 @@ public class BaseTest {
 
     @BeforeMethod
     @Parameters("browser")
-    public void setUp(String browser, Method method) {
+    public void setUp(@Optional("chrome")String browser, Method method) {
         // Initialize ExtentReport with current class name
         String className = this.getClass().getSimpleName();
         report = ExtentReportManager.getReportInstance(className);

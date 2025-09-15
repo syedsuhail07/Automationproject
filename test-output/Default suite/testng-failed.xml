@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.TestAutomation">
+      <class name="Tests.Product_Func_2">
         <methods>
-          <include name="verifyHomeButton"/>
-          <include name="verifyUrlLoads"/>
+          <include name="TC_ECOM_Product_021_ValidNameField"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- Tests.TestAutomation -->
+      </class> <!-- Tests.Product_Func_2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

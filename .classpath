@@ -28,6 +28,7 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
 		<attributes>
+			<attribute name="module" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
@@ -36,77 +37,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/auto-service-annotations-1.1.1-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/auto-service-annotations-1.1.1.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/byte-buddy-1.17.6-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/byte-buddy-1.17.6.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/commons-exec-1.5.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/commons-exec-1.5.0.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/error_prone_annotations-2.38.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/error_prone_annotations-2.38.0.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/failureaccess-1.0.3-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/failureaccess-1.0.3.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/guava-33.4.8-jre-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/guava-33.4.8-jre.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/j2objc-annotations-3.0.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/j2objc-annotations-3.0.0.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/jspecify-1.0.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/jspecify-1.0.0.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/opentelemetry-api-1.51.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/opentelemetry-api-1.51.0.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/opentelemetry-context-1.51.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/opentelemetry-context-1.51.0.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/opentelemetry-exporter-logging-1.51.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/opentelemetry-exporter-logging-1.51.0.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/opentelemetry-sdk-1.51.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/opentelemetry-sdk-1.51.0.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/opentelemetry-sdk-common-1.51.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/opentelemetry-sdk-common-1.51.0.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/opentelemetry-sdk-extension-autoconfigure-1.51.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/opentelemetry-sdk-extension-autoconfigure-1.51.0.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/opentelemetry-sdk-extension-autoconfigure-spi-1.51.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/opentelemetry-sdk-extension-autoconfigure-spi-1.51.0.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/opentelemetry-sdk-logs-1.51.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/opentelemetry-sdk-logs-1.51.0.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/opentelemetry-sdk-metrics-1.51.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/opentelemetry-sdk-metrics-1.51.0.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/opentelemetry-sdk-trace-1.51.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/opentelemetry-sdk-trace-1.51.0.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-api-4.34.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-api-4.34.0.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-chrome-driver-4.34.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-chrome-driver-4.34.0.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-chromium-driver-4.34.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-chromium-driver-4.34.0.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-devtools-v136-4.34.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-devtools-v136-4.34.0.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-devtools-v137-4.34.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-devtools-v137-4.34.0.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-devtools-v138-4.34.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-devtools-v138-4.34.0.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-edge-driver-4.34.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-edge-driver-4.34.0.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-firefox-driver-4.34.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-firefox-driver-4.34.0.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-http-4.34.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-http-4.34.0.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-ie-driver-4.34.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-ie-driver-4.34.0.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-java-4.34.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-java-4.34.0.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-json-4.34.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-json-4.34.0.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-manager-4.34.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-manager-4.34.0.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-os-4.34.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-os-4.34.0.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-remote-driver-4.34.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-remote-driver-4.34.0.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-safari-driver-4.34.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-safari-driver-4.34.0.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-support-4.34.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/venkatakalyan/Downloads/selenium-java-4/selenium-support-4.34.0.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -1,7 +1,7 @@
 package Tests;
 
 import org.testng.annotations.DataProvider;
-import com.automationproj.utilities.Excelutilities;
+import com.automationproj.utilities.Excelutilitiess;
 
 public class DataProviderClass {
 
@@ -10,7 +10,7 @@ public class DataProviderClass {
         String filePath = "C:\\Users\\CHAKRADHAR\\eclipse-workspace\\Automationproject\\src\\test\\resources\\Functional.xlsx";
         String sheetName = "ContactUs"; 
 
-        Excelutilities excel = new Excelutilities(filePath, sheetName);
+        Excelutilitiess excel = new Excelutilitiess(filePath, sheetName);
         int rows = excel.getRowCount();
         int cols = excel.getColCount();
 

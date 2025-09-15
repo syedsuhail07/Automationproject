@@ -16,7 +16,7 @@ public class ScreenshotUtils {
     public static String takeScreenshot(WebDriver driver, String testName) {
         String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
         String screenshotPath = System.getProperty("user.dir") 
-                + "/src/test/resources/Screenshots_Venkat/" 
+                + "/src/test/resources/Trial_Ss/" 
                 + testName + "_" + timestamp + ".png";
         File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         try {

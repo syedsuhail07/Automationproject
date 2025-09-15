@@ -22,42 +22,42 @@ public class Functional_ProductPage {
 	Actions actions;
 	
 	// Locators
-	private By ProductButton = By.xpath("//*[@id=\"header\"]/div/div/div/div[2]/div/ul/li[2]/a");
+	By ProductButton = By.xpath("//*[@id=\"header\"]/div/div/div/div[2]/div/ul/li[2]/a");
 	
-    private By searchBox = By.id("search_product");
-    private By searchButton = By.id("submit_search");
+    By searchBox = By.id("search_product");
+    By searchButton = By.id("submit_search");
     
-    private By womenIcon = By.xpath("//*[@id=\"accordian\"]/div[1]/div[1]/h4/a");
-    private By womenDropdown = By.xpath("//*[@id=\"Women\"]/div");
-    private By menIcon = By.xpath("//*[@id=\"accordian\"]/div[2]/div[1]/h4/a");
-    private By menDropdown = By.id("Men");
-    private By kidsIcon = By.xpath("//*[@id=\"accordian\"]/div[3]/div[1]/h4/a");
-    private By kidsDropdown = By.xpath("//*[@id=\"Kids\"]/div");
+    By womenIcon = By.xpath("//*[@id=\"accordian\"]/div[1]/div[1]/h4/a");
+    By womenDropdown = By.xpath("//*[@id=\"Women\"]/div");
+    By menIcon = By.xpath("//*[@id=\"accordian\"]/div[2]/div[1]/h4/a");
+    By menDropdown = By.id("Men");
+    By kidsIcon = By.xpath("//*[@id=\"accordian\"]/div[3]/div[1]/h4/a");
+    By kidsDropdown = By.xpath("//*[@id=\"Kids\"]/div");
     
-    private By firstViewProductBtn = By.xpath("(//a[text()='View Product'])[1]");
-    private By productInfoSection = By.cssSelector(".product-information");
+    By firstViewProductBtn = By.xpath("(//a[text()='View Product'])[1]");
+    By productInfoSection = By.cssSelector(".product-information");
 
-    private By firstAddToCartBtn = By.xpath("(//a[contains(text(),'Add to cart')])[1]");
-    private By addToCartModal = By.cssSelector("#cartModal .modal-content");
-    private By viewCartLink = By.xpath("//p[@class='text-center']/a");
-    private By cartTable = By.cssSelector("#cart_info_table");
+    By firstAddToCartBtn = By.xpath("(//a[contains(text(),'Add to cart')])[1]");
+    By addToCartModal = By.cssSelector("#cartModal .modal-content");
+    By viewCartLink = By.xpath("//p[@class='text-center']/a");
+    By cartTable = By.cssSelector("#cart_info_table");
     
-    private By nameField = By.id("name");
-    private By emailField = By.id("email");
-    private By reviewField = By.id("review");
+    By nameField = By.id("name");
+    By emailField = By.id("email");
+    By reviewField = By.id("review");
     
-    private By submitReviewBtn = By.id("button-review");
+    By submitReviewBtn = By.id("button-review");
     
-    private By subscribeEmail = By.xpath("//*[@id=\"susbscribe_email\"]");
-    private By subscribeBtn = By.id("subscribe");
+    By subscribeEmail = By.xpath("//*[@id=\"susbscribe_email\"]");
+    By subscribeBtn = By.id("subscribe");
     
     
-    private By commentBox = By.name("message");
+    By commentBox = By.name("message");
     
-    private By placeOrderBtn = By.xpath("//*[@id=\"cart_items\"]/div/div[7]/a");
+    By placeOrderBtn = By.xpath("//*[@id=\"cart_items\"]/div/div[7]/a");
     
-    private By nameOnCard = By.name("name_on_card");
-    private By cardNumber = By.name("card_number");
+    By nameOnCard = By.name("name_on_card");
+    By cardNumber = By.name("card_number");
     By cardField = By.name("card_number");
     By cvcField = By.name("cvc");
     By expiryMonthField = By.name("expiry_month");
@@ -75,13 +75,13 @@ public class Functional_ProductPage {
     
     By loginLink = By.xpath("//*[@id=\"header\"]/div/div/div/div[2]/div/ul/li[4]/a");
     By loginEmail = By.name("email");
-    private By loginPassword = By.name("password");
-    private By loginBtn = By.xpath("//*[@id=\"form\"]/div/div/div[1]/div/form/button");
+    By loginPassword = By.name("password");
+    By loginBtn = By.xpath("//*[@id=\"form\"]/div/div/div[1]/div/form/button");
 
-    private By viewProductLink = By.xpath("/html/body/section[2]/div/div/div[2]/div/div[2]/div/div[2]/ul/li/a");
-    private By addToCartBtn = By.xpath("/html/body/section/div/div/div[2]/div[2]/div[2]/div/span/button");
-    private By viewCartBtn = By.xpath("//*[@id=\"cartModal\"]/div/div/div[2]/p[2]/a");
-    private By proceedToCheckoutBtn = By.xpath("//*[@id=\"do_action\"]/div[1]/div/div/a");
+    By viewProductLink = By.xpath("/html/body/section[2]/div/div/div[2]/div/div[2]/div/div[2]/ul/li/a");
+    By addToCartBtn = By.xpath("/html/body/section/div/div/div[2]/div[2]/div[2]/div/span/button");
+    By viewCartBtn = By.xpath("//*[@id=\"cartModal\"]/div/div/div[2]/p[2]/a");
+    By proceedToCheckoutBtn = By.xpath("//*[@id=\"do_action\"]/div[1]/div/div/a");
     
 
     // Constructor

@@ -17,7 +17,7 @@ public class Login_2 extends BaseTest {
 
     @DataProvider(name = "loginCredentials")
     public Object[][] getLoginCredentials() {
-        return ExcelUtils.getExcelData("Sheet1");
+        return ExcelUtils.getExcelData("Login");
     }
 
     @Test(priority=2)

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count = '5' parallel = "tests">
+  <test thread-count="5" name="ChromeTest">
+  
+  <parameter name = "browser" value = "chrome"></parameter>
+  
+    <classes>
+      <class name="Tests.Product_UI_2"/>
+      <class name="Tests.Product_UI_3"/>
+      <class name="Tests.Product_UI_1"/>
+      <class name="Tests.ALLCART_UI"/>
+      <class name="Tests.Product_UI_8"/>
+      <class name="Tests.Product_UI_6"/>
+      <class name="Tests.ContactUsPage"/>
+      <class name="Tests.Product_UI_7"/>
+      <class name="Tests.Product_UI_4"/>
+      <class name="Tests.Product_UI_5"/>
+      <class name="Tests.ContactUsPage_UI_1"/>
+      <class name="Tests.Fun_Login_Excel"/>
+      <class name="Tests.TestCases_UI_4"/>
+      <class name="Tests.TestCases_UI_3"/>
+      <class name="Tests.TestCases_UI_1"/>
+      <class name="Tests.TCpageTest"/>
+      <class name="Tests.TestCasesUI_2"/>
+      <class name="Tests.Fun_Reg_Excel"/>
+      <class name="Tests.Product_Func_1"/>
+      <class name="Tests.UI_Home"/>
+      <class name="Tests.Product_Func_3"/>
+      <class name="Tests.Product_Func_2"/>
+      <class name="Tests.Login_3"/>
+      <class name="Tests.APIUI_2"/>
+      <class name="Tests.Login_4"/>
+      <class name="Tests.Product_Func_4"/>
+      <class name="Tests.TestAutomation"/>
+      <class name="Tests.Login_1"/>
+      <class name="Tests.API_UI_1"/>
+      <class name="Tests.ContactUsTests"/>
+      <class name="Tests.Login_2"/>
+      <class name="Tests.Login_5"/>
+      <class name="Tests.Login_6"/>
+      <class name="Tests.UI_Home_1"/>
+      <class name="Tests.UI_Home_2"/>
+      <class name="Tests.ContactUs_UI_2"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="EdgeTest">
+  <parameter name = "browser" value = "edge"></parameter>
+  
+  <classes>
+      <class name="Tests.Product_UI_2"/>
+      <class name="Tests.Product_UI_3"/>
+      <class name="Tests.Product_UI_1"/>
+      <class name="Tests.ALLCART_UI"/>
+      <class name="Tests.Product_UI_8"/>
+      <class name="Tests.Product_UI_6"/>
+      <class name="Tests.ContactUsPage"/>
+      <class name="Tests.Product_UI_7"/>
+      <class name="Tests.Product_UI_4"/>
+      <class name="Tests.Product_UI_5"/>
+      <class name="Tests.ContactUsPage_UI_1"/>
+      <class name="Tests.Fun_Login_Excel"/>
+      <class name="Tests.TestCases_UI_4"/>
+      <class name="Tests.TestCases_UI_3"/>
+      <class name="Tests.TestCases_UI_1"/>
+      <class name="Tests.TCpageTest"/>
+      <class name="Tests.TestCasesUI_2"/>
+      <class name="Tests.Fun_Reg_Excel"/>
+      <class name="Tests.Product_Func_1"/>
+      <class name="Tests.UI_Home"/>
+      <class name="Tests.Product_Func_3"/>
+      <class name="Tests.Product_Func_2"/>
+      <class name="Tests.Login_3"/>
+      <class name="Tests.APIUI_2"/>
+      <class name="Tests.Login_4"/>
+      <class name="Tests.Product_Func_4"/>
+      <class name="Tests.TestAutomation"/>
+      <class name="Tests.Login_1"/>
+      <class name="Tests.API_UI_1"/>
+      <class name="Tests.ContactUsTests"/>
+      <class name="Tests.Login_2"/>
+      <class name="Tests.Login_5"/>
+      <class name="Tests.Login_6"/>
+      <class name="Tests.UI_Home_1"/>
+      <class name="Tests.UI_Home_2"/>
+      <class name="Tests.ContactUs_UI_2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

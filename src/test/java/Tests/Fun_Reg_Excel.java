@@ -126,7 +126,7 @@ public class Fun_Reg_Excel extends BaseTest {
         // 3) If still empty and user wants tests to run, use embedded defaults
         if (useEmbeddedIfEmpty) {
             System.out.println("[safeGetSheet] Using embedded default data for sheet: " + sheetName);
-            if ("Sheet4".equalsIgnoreCase(sheetName)) {
+            if ("Fun_Signup".equalsIgnoreCase(sheetName)) {
                 // signup default rows: TestCase, Name, Email, ExpectedResult
                 List<Object[]> ds = new ArrayList<>();
                 ds.add(new Object[]{"Navigate to Signup Page", "", "", "info"});
@@ -171,7 +171,7 @@ public class Fun_Reg_Excel extends BaseTest {
     @DataProvider(name = "signupData")
     public Object[][] signupData() {
         // Sheet4 for signup data (4 columns: TestCase, Name, Email, ExpectedResult)
-        Object[][] data = safeGetSheet("Sheet4", 4, true);
+        Object[][] data = safeGetSheet("Fun_Signup", 4, true);
         System.out.println("[signupData] rows=" + data.length);
         return data;
     }
@@ -179,7 +179,7 @@ public class Fun_Reg_Excel extends BaseTest {
     @DataProvider(name = "registrationData")
     public Object[][] registrationData() {
         // Sheet5 for registration data (21 columns)
-        Object[][] data = safeGetSheet("Sheet5", 21, true);
+        Object[][] data = safeGetSheet("Fun_Reg", 21, true);
         System.out.println("[registrationData] rows=" + data.length);
         return data;
     }

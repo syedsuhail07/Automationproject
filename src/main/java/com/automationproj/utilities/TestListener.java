@@ -23,5 +23,4 @@ public class TestListener implements ITestListener {
         // Add logic to mark the test as failed and possibly capture a screenshot
     }
     
-    // You can also implement other methods like onTestSkipped, onStart, etc.
 }

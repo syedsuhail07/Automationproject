@@ -9,7 +9,7 @@ import java.util.List;
 
 public class ExcelUtils {
 
-    public static final String EXCEL_FILE_PATH = System.getProperty("user.dir") + "/Sampledata.xlsx";
+    public static final String EXCEL_FILE_PATH = System.getProperty("user.dir") + "\\src\\test\\resources\\TestData\\Sampledata.xlsx";
 
     public static Object[][] getExcelData(String sheetName) {
         List<Object[]> dataList = new ArrayList<>();

@@ -3,13 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.Product_Func_2">
+      <class name="Tests.ContactUsTests">
         <methods>
-          <include name="TC_ECOM_Product_021_ValidNameField"/>
+          <include name="TC_013_VerifyScrollUpFunctionality"/>
+          <include name="TC_008_VerifyFileAttachment"/>
+          <include name="TC_012_VerifyHomeButtonAfterSubmit"/>
+          <include name="TC_011_VerifySubmitButton"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- Tests.Product_Func_2 -->
+      </class> <!-- Tests.ContactUsTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

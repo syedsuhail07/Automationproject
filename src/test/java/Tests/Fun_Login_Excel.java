@@ -16,7 +16,7 @@ public class Fun_Login_Excel extends BaseTest {
     // ✅ DataProvider: Reads from Excel (Sheet3)
     @DataProvider(name = "logindata")
     public Object[][] getLoginData() {
-        return ExcelUtils.getExcelData("Sheet3");
+        return ExcelUtils.getExcelData("Fun_Login");
     }
 
     // 1. Navigate to Login/Signup page
